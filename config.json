@@ -1,0 +1,13 @@
+{
+    "db":
+        {
+            "database": "CMS",
+            "username": "postgres",
+            "password":"Maryam@24",
+            "logging":false,
+            "host":"localhost",
+            "dialect":"postgres"
+
+        }
+    
+}
