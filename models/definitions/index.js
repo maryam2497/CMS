@@ -3,14 +3,13 @@ var config = require('../../config.json');
 const db = {};
 config = config.db;
 let sequelize = require('../../common/dbConnection');
+const  User  = require('./user');
+const  Course  = require('./course');
+const  Teacher  = require('./teacher');
+const  Student  = require('./student');
 
-// const  Orders  = require('./orders');
-// const Cart  = require('./cart');
-// const  Product  = require('./product');
-// const  Roles  = require('./roles');
-// const CartItems = require('./cartItems');
 const models = {
-    
+    User,Course,Teacher,Student
 };
 
 
