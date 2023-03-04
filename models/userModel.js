@@ -33,6 +33,8 @@ module.exports = {
         );
         return result;
     },
+   
+      
     removeUser: async function(ids){
         
         const result = await models.User.destroy(
