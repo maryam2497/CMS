@@ -20,4 +20,11 @@ module.exports = {
       getStudentById: require("./student/getStudentById"),
       updateStudent: require("./student/updateStudent"),
       removeStudent: require("./student/removeStudent"),
+
+       //teacher
+       createTeacher: require("./teacher/createTeacher"),
+       getTeacher: require("./teacher/getTeacher"),
+       getTeacherById: require("./teacher/getTeacherById"),
+       updateTeacher: require("./teacher/updateTeacher"),
+       removeTeacher: require("./teacher/removeTeacher"),
 }
