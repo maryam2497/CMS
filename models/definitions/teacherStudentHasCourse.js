@@ -1,7 +1,7 @@
 const { Sequelize, Model,DataTypes } = require('sequelize');
 let sequelize = require("../../common/dbConnection")
-class StudentCourse extends Model {};
-StudentCourse.init(
+class teacherStudentHasCourse extends Model {};
+teacherStudentHasCourse.init(
     {
         id:{
             primaryKey:true,
@@ -9,13 +9,13 @@ StudentCourse.init(
             allowNull:false,
             type:DataTypes.INTEGER,
         },
-   
+
     },
     {
         timestamps:true,
         paranoid:true,
         sequelize: sequelize,
-        modelName:"StudentCourse"
+        modelName:"teacherStudentHasCourse"
     }
 )
-module.exports = StudentCourse;
+module.exports = teacherStudentHasCourse;

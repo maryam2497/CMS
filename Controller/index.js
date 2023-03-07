@@ -27,4 +27,7 @@ module.exports = {
        getTeacherById: require("./teacher/getTeacherById"),
        updateTeacher: require("./teacher/updateTeacher"),
        removeTeacher: require("./teacher/removeTeacher"),
+
+        //teacherStudentHasCourse
+        createTeacherStudentHasCourse: require("./teacherStudentHasCourse/createTeacherStudentHasCourse.js")
 }

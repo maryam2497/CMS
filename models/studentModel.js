@@ -3,6 +3,7 @@ const {createUser, removeUser,updateUser,getUserById} = require("../models/userM
 
 module.exports = {
     createStudent: async function(body){
+        
         var userData={
             firstName: body.firstName,
             lastName: body.lastName,
